@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+*{
+    font-family: "Poppins", sans-serif;
+    cursor:default;
+}
+
+.date, .temperature, .city, .weatherIcon, .summary{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.todayWeather{
+    border: 3px solid #27374D;
+    height: 27.5rem;
+    width: 13rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 15px;
+}
+
+.date, .temperature, .city, .summary{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #192940;
+}
+
+
+.main1{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.search{
+    background-color: white;
+    border: 2px solid #27374D;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 1.8rem;
+    width: 25rem;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding-left: 1rem;
+    color: #27374D;
+    
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+
+
+.searchImage{
+    height: 1.5rem;
+    background-color: white;
+    /* border-radius: 100%; */
+
+}
+button{
+    height: 2rem;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+.searchImage:hover{
+    cursor:pointer;
+}
+
+.todayOthers{
+    margin-left: 1.3rem;
+}
+
+.first, .second, .third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    height:fit-content;
+    margin-top: 0.9rem;
+}
+span{
+    border: 3px solid #27374D;
+    height:7rem;
+    width: 12.5rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display:flex;
+    font-weight:bolder;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    color: #192940;
+}
+
+.tempImage, .windImage, .humidityImage, .pressureImage, .sunriseImage, .sunsetImage{
+    background-color: #526D82;
+    height: 4rem;
+    
+}
+
+
+.currWeatherIcon{
+    height: 10rem;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* mobile version css */
+
+.todayWeatherCover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.search2{
+    display: flex;
+    justify-content: center;
+}
+
+.main2{
+    margin-bottom: 2rem;
+    display: none;
+}

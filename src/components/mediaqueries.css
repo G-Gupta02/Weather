@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {
+    .main1{
+        display: none;
+    }
+    .main2{
+        display:contents;
+    }
+    
+}
