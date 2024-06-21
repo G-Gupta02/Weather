@@ -64,7 +64,7 @@ const InputTextExtractor = ({ onSubmit }) => {
   const [inputText, setInputText] = useState("");
 
   const handleInputChange = (e) => {
-    setInputText(e.target.value);
+    setInputText(e.target.value.trim());
   };
 
   const handleSubmit = () => {
